@@ -1,1 +1,3 @@
 # jestUnit
+
+npm run test
