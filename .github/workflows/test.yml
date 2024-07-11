@@ -17,5 +17,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Check status of external service
+        run: curl -I https://jsonplaceholder.typicode.com/todos/
+
       - name: Run tests
         run: npm run test
